@@ -9,10 +9,11 @@ window.scrollRevealItems = {
             }
         },
         // Other Header Animation
-        {selector: ':not(.menuitem)[data-animation-delay], :not(.menuitem)[data-animation-duration], :not(.menuitem)[data-animation-origin]',
-        data: {}
+        {
+            selector: ':not(.menuitem)[data-animation-delay], :not(.menuitem)[data-animation-duration], :not(.menuitem)[data-animation-origin]',
+            data: {}
         }
-],
+    ],
     content: [
         {
             selector: '.content-wrap [data-animation-delay], .content-wrap [data-animation-duration], .content-wrap [data-animation-origin]',

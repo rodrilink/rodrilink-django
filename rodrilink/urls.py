@@ -18,13 +18,18 @@ from django.conf import settings
 from django.conf.urls import url
 from django.conf.urls.static import static
 from . import views
+import sys
+
+# print(settings.STATIC_URL .settings.STATIC_ROOT, file=sys.stderr);
 
 urlpatterns = [
-    path('', views.index),
-    path('index.html/', views.index),
-    path('resume/', views.resume),
-    path('contacts.html/', views.contacts),
-    path('feedback.html/', views.feedback),
-    path('portfolio-4-col.html/', views.portfolio),
-    path('blog-3-col.html/', views.blog),
+    url(r'^', views.index, name="index"),
+    url(r'^(?:.*)/?$', views.index)
+    # path('', views.index),
+    # path('home/', views.index),
+    # path('resume/', views.resume),
+    # path('contacts.html/', views.contacts),
+    # path('feedback.html/', views.feedback),
+    # path('portfolio-4-col.html/', views.portfolio),
+    # path('blog-3-col.html/', views.blog),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
