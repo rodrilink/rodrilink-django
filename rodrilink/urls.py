@@ -25,11 +25,4 @@ import sys
 urlpatterns = [
     url(r'^', views.index, name="index"),
     url(r'^(?:.*)/?$', views.index)
-    # path('', views.index),
-    # path('home/', views.index),
-    # path('resume/', views.resume),
-    # path('contacts.html/', views.contacts),
-    # path('feedback.html/', views.feedback),
-    # path('portfolio-4-col.html/', views.portfolio),
-    # path('blog-3-col.html/', views.blog),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
