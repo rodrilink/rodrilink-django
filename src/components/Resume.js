@@ -33,7 +33,7 @@ const Resume = () => {
                             data-animation-duration="200"
                             data-animation-delay="300"
                             data-animation-distance="20px">
-                            <h3 className="font-accident-two-normal uppercase text-center">Facts About Me</h3>
+                            <h3 className="font-accident-two-normal uppercase text-center">Hechos sobre m&iacute;.</h3>
                             <div className="dividewhite1"></div>
                             <p className="small text-center fontcolor-medium">
                                 With the Gridus personal theme it’s possible to make an impressive website

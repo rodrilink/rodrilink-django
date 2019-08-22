@@ -15,8 +15,8 @@ const Header = () => {
                                 <h1 className="font-accident-two-extralight">Rodrigo Curiel</h1>
                             </div>
                             <div className="col-md-2 nopadding name-pdf">
-                                <a href="#" className="hvr-sweep-to-right"><i className="flaticon-download149"
-                                    title="Download CV.pdf"></i></a>
+                                <a href="/assets/custom/2.2.0/downloads/Curriculum Vitae Spanish.pdf" download className="hvr-sweep-to-right"><i className="flaticon-download149"
+                                    title="Descarga CV.pdf"></i></a>
                             </div>
                         </div>
                         <div className="row nopadding position">
@@ -24,19 +24,20 @@ const Header = () => {
 
                                 <section className="cd-intro">
                                     <h2 className="cd-headline clip is-full-width font-accident-two-light">
-                                        <span>The experienced </span>
+                                        <span>Experiencia en&nbsp;</span>
                                         <span className="cd-words-wrapper">
-                                            <b className="is-visible">UI/UX Designer</b>
-                                            <b>Web Designer</b>
-                                            <b>Web Developer</b>
+                                            <b className="is-visible">desarrollo de sistemas.</b>
+                                            <b >dise&ntilde;o de p&aacute;ginas web.</b>
+                                            <b>creaci&oacute;n de aplicaciones moviles.</b>
+                                            <b>planificacio&acute;n de proyectos.</b>
                                         </span>
                                     </h2>
                                 </section>
 
                             </div>
                             <div className="col-md-2 nopadding pdf">
-                                <a href="#" className="hvr-sweep-to-right"><i className="flaticon-behance7"
-                                    title="My Behance Portfolio"></i></a>
+                                <a href="https://www.linkedin.com/in/rodrilink" target="_blank" className="hvr-sweep-to-right"><i className="flaticon-linkedin22"
+                                    title="Perfil de LinkedIn"></i></a>
                             </div>
                         </div>
 
@@ -44,7 +45,7 @@ const Header = () => {
                             <li className="col-xs-6 col-sm-6 nopadding menuitem ui-menu-color01" data-animation-duration="1000"
                                 data-animation-delay="100">
                                 <Link to="/" className="hvr-sweep-to-bottom">
-                                    <i className="flaticon-insignia"></i><span>home</span>
+                                    <i className="flaticon-insignia"></i><span>Inicio</span>
                                 </Link>
                             </li>
                             {/* <li className="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color02" data-animation-duration="1000"
@@ -61,7 +62,7 @@ const Header = () => {
                             <li className="col-xs-6 col-sm-6 nopadding menuitem ui-menu-color04" data-animation-duration="1000"
                                 data-animation-delay="700">
                                 <Link to="/contacts" className="hvr-sweep-to-bottom">
-                                    <i className="flaticon-placeholders4"></i><span>contacts</span>
+                                    <i className="flaticon-placeholders4"></i><span>Contacto</span>
                                 </Link>
                             </li>
                             {/* <li className="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color05" data-animation-duration="1000"

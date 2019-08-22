@@ -1,42 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Fade from 'react-reveal/Fade';
-import Script from 'react-load-script';
 
 const Home = () => {
-
-    useEffect(() => {
-
-        setTimeout(() => {
-            const script = document.createElement("script");
-
-            // script.id = "rodrilink-progressbar";
-            // script.src = "assets/custom/2.2.0/js/progressbar.js";
-            // script.async = true;
-
-            // const removeScript = document.getElementById(script.id);
-
-
-            // if (removeScript) {
-            //     console.log(removeScript);
-            //     // document.body.removeChild(removeScript);
-            //     // removeScript[0].parentElement.removeChild(cremoveScript[0]);
-            //     removeScript.setAttribute("src", "assets/custom/2.2.0/js/progressbar.js");
-            // } else {
-            //     document.body.appendChild(script);
-            // }
-
-
-
-            // const scriptTwo = document.createElement("script");
-
-            // scriptTwo.src = "assets/custom/2.2.0/js/custom.js";
-            // scriptTwo.async = true;
-
-            // document.body.appendChild(scriptTwo);
-
-        }, 0);
-
-    }, []);
 
     return (
         <div className="content-wrap">
@@ -47,10 +12,9 @@ const Home = () => {
                             <div className="padding-50 flex-panel">
                                 <div className="row row-no-padding">
                                     <div className="col-md-12 nopadding">
-                                        <h3 className="font-accident-two-normal uppercase title">Gridus Resume HTML Template</h3>
+                                        <h3 className="font-accident-two-normal uppercase title">Mi Perfil</h3>
                                         <div className="quote">
-                                            <h4 className="font-accident-two-normal uppercase subtitle">Perfect for CV / Resume or Portfolio
-                              Website</h4>
+                                            <h4 className="font-accident-two-normal uppercase subtitle">Profesional, Innovador y Comprometido son palabras que me identifican.</h4>
                                             <div className="dividewhite3"></div>
                                         </div>
                                     </div>
@@ -59,14 +23,13 @@ const Home = () => {
                                 <div className="row nopadding">
                                     <div className="col-md-4 infoblock nopadding">
                                         <div className="row">
-                                            <div className="col-xs-12 col-sm-1 col-md-3"><i className="flaticon-clocks18 color-blue"></i>
+                                            <div className="col-xs-12 col-sm-1 col-md-3"><i className="flaticon-tool-1 color-blue"></i>
                                                 <div className="dividewhite1"></div>
                                             </div>
                                             <div className="col-xs-12 col-sm-11 col-md-9">
-                                                <h4 className="font-accident-two-medium uppercase">Modern</h4>
+                                                <h4 className="font-accident-two-medium uppercase">Profesional</h4>
                                                 <p className="">
-                                                    The Gridus Resume Template has an unique modern flat intuitive design. You can choose
-                                                    one of 8 Color schemes.
+                                                    Me considero un desarrollador web experimentado con fuerte interés en proyectos que requieren un trabajo de análisis fuerte y conceptos que pongan a prueba mis capacidades.
                               </p>
                                             </div>
                                         </div>
@@ -78,10 +41,9 @@ const Home = () => {
                                                 <div className="dividewhite1"></div>
                                             </div>
                                             <div className="col-xs-12 col-sm-11 col-md-9">
-                                                <h4 className="font-accident-two-medium uppercase">Simple CV</h4>
+                                                <h4 className="font-accident-two-medium uppercase">Innovador</h4>
                                                 <p className="">
-                                                    Gridus Personal Template is the simple, clean and stylish fully-responsive resume theme
-                                                    with modern creative design.
+                                                    Totalmente comprometido con el diseño y desarrollo de aplicaciones innovadoras, siempre buscando los mejor para el cliente.
                               </p>
                                             </div>
                                         </div>
@@ -89,14 +51,13 @@ const Home = () => {
                                     </div>
                                     <div className="col-md-4 infoblock nopadding">
                                         <div className="row">
-                                            <div className="col-xs-12 col-sm-1 col-md-3"><i className="flaticon-tool-1 color-blue"></i>
+                                            <div className="col-xs-12 col-sm-1 col-md-3"><i className="flaticon-clocks18 color-blue"></i>
                                                 <div className="dividewhite1"></div>
                                             </div>
                                             <div className="col-xs-12 col-sm-11 col-md-9">
-                                                <h4 className="font-accident-two-medium uppercase">Responsive</h4>
+                                                <h4 className="font-accident-two-medium uppercase">Comprometido</h4>
                                                 <p className="">
-                                                    Works fast and looks fine on any device with the wide range of the screen resolution.
-                                                    Supports all the Google SEO rules.
+                                                    Mi meta principal siempre es cumplir con los objetivos del cliente en el menor tiempo posible, haciendo cada tarea con mucho dedicaci&oacute;n.
                               </p>
                                             </div>
                                         </div>
@@ -110,47 +71,47 @@ const Home = () => {
                     <Fade right>
                         <div id="personal" className="col-md-4 flex-column light ui-block-color01 personal">
                             <div className="padding-50 flex-panel">
-                                <h3 className="font-accident-two-normal uppercase title">Personal Info</h3>
+                                <h3 className="font-accident-two-normal uppercase title">Informaci&oacute;n Personal</h3>
                                 <div className="dividewhite4"></div>
                                 <div>
                                     <div className="fullwidth box">
                                         <div className="one">
-                                            <p className="uppercase">Name:</p>
+                                            <p className="uppercase">Nombre:</p>
                                         </div>
                                         <div className="two">
-                                            <p className="">Rodrigo Curiel Gomez</p>
+                                            <p className="">Rodrigo Curiel</p>
                                         </div>
                                     </div>
                                     <div className="fullwidth box">
                                         <div className="one">
-                                            <p className="uppercase text-nowrap">Birth Date:</p>
+                                            <p className="uppercase text-nowrap">Nacimiento:</p>
                                         </div>
                                         <div className="two">
-                                            <p className="">03/12/1980</p>
+                                            <p className="">04/01/1984</p>
                                         </div>
                                     </div>
                                     <div className="fullwidth box">
                                         <div className="one">
-                                            <p className="uppercase">Address:</p>
+                                            <p className="uppercase">Direcci&oacute;n:</p>
                                         </div>
                                         <div className="two">
-                                            <p className="">1234, Direct drive, Daytona Beach, Fl, USA</p>
+                                            <p className="">Mexicali, M&eacute;xico</p>
                                         </div>
                                     </div>
                                     <div className="fullwidth box">
                                         <div className="one">
-                                            <p className="uppercase">Phone:</p>
+                                            <p className="uppercase">Tel&eacute;fono:</p>
                                         </div>
                                         <div className="two">
-                                            <p className="">1 234 567 89 10</p>
+                                            <p className="">+52 686 202 63 27</p>
                                         </div>
                                     </div>
                                     <div className="fullwidth box">
                                         <div className="one">
-                                            <p className="uppercase">Email:</p>
+                                            <p className="uppercase">Correo:</p>
                                         </div>
                                         <div className="two">
-                                            <p className="">james@anderson.com</p>
+                                            <p className="">rodrilink@gmail.com</p>
                                         </div>
                                     </div>
                                 </div>
@@ -165,32 +126,32 @@ const Home = () => {
                     <Fade down>
                         <div id="pro-experience" className="col-md-4 flex-column dark nopadding ui-block-color02 flex-col">
                             <div className="padding-50 flex-panel">
-                                <h3 className="font-accident-two-normal uppercase title">Employment</h3>
+                                <h3 className="font-accident-two-normal uppercase title">Experiencia Laboral</h3>
                                 <div className="dividewhite4"></div>
                                 <div className="experience">
                                     <ul className="">
-                                        <li className="date">02/2008 - 04/2010</li>
+                                        <li className="date">02/2013 - Actual</li>
                                         <li className="company uppercase">
                                             <a>
-                                                ABC Brodcast Inc. New York.
+                                                Poder Judicial
                            </a>
                                         </li>
-                                        <li className="position">Junior Designer</li>
+                                        <li className="position">Desarrollador de sistemas</li>
                                     </ul>
                                     <ul className="">
-                                        <li className="date">04/2010 - 06/2012</li>
+                                        <li className="date">08/2008 - 02/2013</li>
                                         <li className="company uppercase">
                                             <a>
-                                                Leo Burnett London Office
+                                                Secretar&iacute;a de Seguridad P&uacute;blica 
                            </a>
                                         </li>
-                                        <li className="position">Senior Designer</li>
+                                        <li className="position">Desarrollador de sistemas</li>
                                     </ul>
                                     <ul className="">
-                                        <li className="date">06/2012 - present</li>
+                                        <li className="date">04/2008 - 08/2008</li>
                                         <li className="company uppercase">
                                             <a>
-                                                Google Inc. Dublin.
+                                                DIF Estatal
                            </a>
                                         </li>
                                         <li className="position">UI/UX Designer</li>
@@ -204,56 +165,51 @@ const Home = () => {
                         <div id="circle-skills" className="col-md-8 flex-column dark nopadding ui-block-color03 flex-col"
                             data-section="facts">
                             <div className="padding-50 flex-panel">
-                                <h3 className="font-accident-two-normal uppercase title">Facts About Me</h3>
+                                <h3 className="font-accident-two-normal uppercase title">Acerca de m&iacute;.</h3>
                                 <p className="small">
-                                    With the Gridus personal theme it’s possible to make an impressive website
-                                    in just 15 minutes.
+                                    Ingeniero en Computaci&oacute;n egresado de la Universidad Aut&oacute;noma de Baja California.
                                 </p>
                                 {/* <div className="dividewhite4"></div> */}
                                 <div className="dividewhite1"></div>
                                 <div className="row">
                                     <div className="col-md-6">
                                         <div className="row">
-                                            <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Status:</p></div>
-                                            <div className="col-sm-8"><p className="">Open to Offers</p></div>
+                                            <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Estado:</p></div>
+                                            <div className="col-sm-8"><p className="">Abierto para nuevas oportunidades</p></div>
                                         </div>
                                         <div className="row">
-                                            <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Desired Salary:</p></div>
-                                            <div className="col-sm-8"><p className="">To be Discussed</p></div>
+                                            <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Nivel de educaci&oacute;n:</p></div>
+                                            <div className="col-sm-8"><p className="">Licenciatura en Ingenier&iacute;a en Computaci&oacute;n</p></div>
                                         </div>
                                         <div className="row">
-                                            <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Education Level:</p></div>
-                                            <div className="col-sm-8"><p className="">Advanced Degree, Architecture</p></div>
+                                            <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Tipos de trabajo:</p></div>
+                                            <div className="col-sm-8"><p className="">Contrato, Independiente</p></div>
                                         </div>
                                         <div className="row">
-                                            <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Job Type:</p></div>
-                                            <div className="col-sm-8"><p className="">Contract, Freelance</p></div>
-                                        </div>
-                                        <div className="row">
-                                            <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Mobility:</p></div>
-                                            <div className="col-sm-8"><p className="">Ready to Relocate</p></div>
+                                            <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Mobilidad:</p></div>
+                                            <div className="col-sm-8"><p className="">Listo para reubicarme</p></div>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
                                         <div className="row">
-                                            <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Languages:</p></div>
-                                            <div className="col-sm-8"><p className="">English, French, Spanish</p></div>
+                                            <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Lenguajes:</p></div>
+                                            <div className="col-sm-8"><p className="">Espa&ntilde;ol e Ingles</p></div>
                                         </div>
                                         <div className="row">
-                                            <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Position:</p></div>
-                                            <div className="col-sm-8"><p className="">Head of Ui/Ux Department</p></div>
+                                            <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Posici&oacute;n:</p></div>
+                                            <div className="col-sm-8"><p className="">Analista / Desarrollador</p></div>
                                         </div>
                                         <div className="row">
-                                            <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Industry:</p></div>
-                                            <div className="col-sm-8"><p className="">Web Development</p></div>
+                                            <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Area de interes:</p></div>
+                                            <div className="col-sm-8"><p className="">Desarrollo web y m&oacute;vil</p></div>
                                         </div>
                                         <div className="row">
-                                            <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Speciality:</p></div>
-                                            <div className="col-sm-8"><p className="">Web Design, Prototyping, Ux Testing, Ui Design</p></div>
+                                            <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Especialidad:</p></div>
+                                            <div className="col-sm-8"><p className="">Desarrollo de aplicaciones, Dise&ntilde;o web, planificaci&oacute;n de proyectos, manejo de datos</p></div>
                                         </div>
                                         <div className="row">
-                                            <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Hobbies:</p></div>
-                                            <div className="col-sm-8"><p className="">Books, Piano, Chess</p></div>
+                                            <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Pasatiempos:</p></div>
+                                            <div className="col-sm-8"><p className="">Futbol, correr, escuchar m&uacute;sica</p></div>
                                         </div>
                                     </div>
                                 </div>
