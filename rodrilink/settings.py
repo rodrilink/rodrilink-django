@@ -25,7 +25,10 @@ SECRET_KEY = 'f%zziwpa7!@(zp5wlsrq-y+m2(@_!@_7_wy0gib5_dag&5p74r'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'rodrilink.com',
+    'www.rodrilink.com'
+]
 
 
 # Application definition
