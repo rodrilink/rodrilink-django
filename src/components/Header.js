@@ -19,7 +19,7 @@ const Header = () => {
                                     title="Descarga CV.pdf"></i></a>
                             </div>
                         </div>
-                        <div className="row nopadding position">
+                        <div className="row nopadding position hidden-xs">
                             <div className="col-md-10 position-title">
 
                                 <section className="cd-intro">
@@ -42,7 +42,7 @@ const Header = () => {
                         </div>
 
                         <ul id="nav" className="row nopadding cd-side-navigation">
-                            <li className="col-xs-6 col-sm-6 nopadding menuitem ui-menu-color01" data-animation-duration="1000"
+                            <li className="col-xs-12 col-sm-4 nopadding menuitem ui-menu-color01" data-animation-duration="1000"
                                 data-animation-delay="100">
                                 <Link to="/" className="hvr-sweep-to-bottom">
                                     <i className="flaticon-insignia"></i><span>Inicio</span>
@@ -53,13 +53,14 @@ const Header = () => {
                                 <Link to="/resume" className="hvr-sweep-to-bottom">
                                     <i className="flaticon-graduation61"></i><span>resume</span>
                                 </Link>
-                            </li>
-                            <li className="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color03" data-animation-duration="1000"
-                                data-animation-delay="500">
-                                <a href="portfolio-4-col.html" className="hvr-sweep-to-bottom"><i
-                                    className="flaticon-book-bag2"></i><span>portfolio</span></a>
                             </li> */}
-                            <li className="col-xs-6 col-sm-6 nopadding menuitem ui-menu-color04" data-animation-duration="1000"
+                            <li className="col-xs-6 col-sm-4 nopadding menuitem ui-menu-color03" data-animation-duration="1000"
+                                data-animation-delay="500">
+                                <Link to="/portfolio" className="hvr-sweep-to-bottom">
+                                    <i className="flaticon-book-bag2"></i><span>Portafolio</span>
+                                </Link>
+                            </li>
+                            <li className="col-xs-6 col-sm-4 nopadding menuitem ui-menu-color04" data-animation-duration="1000"
                                 data-animation-delay="700">
                                 <Link to="/contacts" className="hvr-sweep-to-bottom">
                                     <i className="flaticon-placeholders4"></i><span>Contacto</span>

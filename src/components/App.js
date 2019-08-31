@@ -1,7 +1,7 @@
 import React from "react";
 import Home from './Home';
 import Header from './Header';
-// import Resume from './Resume';
+import Portfolio from './Portfolio';
 import Footer from './Footer';
 import Contacts from './Contacts';
 
@@ -14,6 +14,7 @@ const App = () => (
             <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/contacts" component={Contacts} />
+                <Route path="/portfolio" component={Portfolio} />
                 <Redirect to="/" />
             </Switch>
             <Footer />

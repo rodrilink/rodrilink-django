@@ -43,7 +43,7 @@ const Home = () => {
                                             <div className="col-xs-12 col-sm-11 col-md-9">
                                                 <h4 className="font-accident-two-medium uppercase">Innovador</h4>
                                                 <p className="">
-                                                    Totalmente comprometido con el diseño y desarrollo de aplicaciones innovadoras, siempre buscando los mejor para el cliente.
+                                                    Totalmente comprometido con el diseño y desarrollo de aplicaciones innovadoras, siempre buscando lo mejor para el cliente.
                               </p>
                                             </div>
                                         </div>
@@ -142,7 +142,7 @@ const Home = () => {
                                         <li className="date">08/2008 - 02/2013</li>
                                         <li className="company uppercase">
                                             <a>
-                                                Secretar&iacute;a de Seguridad P&uacute;blica 
+                                                Secretar&iacute;a de Seguridad P&uacute;blica
                            </a>
                                         </li>
                                         <li className="position">Desarrollador de sistemas</li>

@@ -12,7 +12,7 @@ const Contacts = () => {
                                 data-animation-origin="right"
                                 data-animation-duration="400"
                                 data-animation-delay="100"
-                                data-animation-distance="50px">Conct&aacute;ctame</h2>
+                                data-animation-distance="50px">Cont&aacute;ctame</h2>
                             <h4 className="font-accident-two-light color01 uppercase subtitle"
                                 data-animation-origin="right"
                                 data-animation-duration="400"
