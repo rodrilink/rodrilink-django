@@ -23,9 +23,9 @@ const Contacts = () => {
                                 data-animation-duration="400"
                                 data-animation-delay="300"
                                 data-animation-distance="50px">
-                                Te comento que tengo todo un equipo altamente capacitado para ayudarnos, dise&ntilde;adores grafico, expertos en aplicaciones moviles, analistas de bases de datos.. etc.
+                                Tengo todo un equipo altamente capacitado para ayudarnos, dise&ntilde;adores gr&aacute;ficos, expertos en aplicaciones moviles, an&aacute;listas de bases de datos.. etc.
                                 <br />
-                                As&iacute; que animate a cont&aacute;ctame y platiquemos de negocios.
+                                As&iacute; que an&iacute;mate a cont&aacute;ctame y platiquemos de negocios.
                             </p>
                         </div>
                     </section>

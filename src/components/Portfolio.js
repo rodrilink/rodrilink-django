@@ -33,7 +33,7 @@ class Portfolio extends Component {
                         <section id="page-title" className="inner-section ui-menu-color03">
                             <div className="container-fluid nopadding">
                                 <h2 className="font-accident-two-bold color01">Portafolio</h2>
-                                <h4 className="font-accident-two-light color01 uppercase subtitle">Soy un emprendedor con muchos a&ntilde;os de experiencia en el desarrollo</h4>
+                                <h4 className="font-accident-two-light color01 uppercase subtitle">Soy un emprendedor con muchos a&ntilde;os de experiencia en el desarrollo de sistemas web y m&oacute;vil</h4>
                                 <p className="small color01">
                                     Mi objetivo es crecer poco a poco con trabajos profesionales hechos con mucho empe&ntilde;o y dedicaci&oacute;n, se que el trabajo habla por m&iacute;, siempre la calidad por encima de la cantidad.
                                 </p>

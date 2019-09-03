@@ -93,3 +93,6 @@ typings/
 
 # Extras
 .DS_Store
+
+# main.js
+assets/main.js

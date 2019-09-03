@@ -136,7 +136,7 @@ const Home = () => {
                                                 Poder Judicial
                            </a>
                                         </li>
-                                        <li className="position">Desarrollador de sistemas</li>
+                                        <li className="position">Desarrollador de sistemas Senior</li>
                                     </ul>
                                     <ul className="">
                                         <li className="date">08/2008 - 02/2013</li>
@@ -145,7 +145,7 @@ const Home = () => {
                                                 Secretar&iacute;a de Seguridad P&uacute;blica
                            </a>
                                         </li>
-                                        <li className="position">Desarrollador de sistemas</li>
+                                        <li className="position">Desarrollador de Sistemas Junior</li>
                                     </ul>
                                     <ul className="">
                                         <li className="date">04/2008 - 08/2008</li>
@@ -154,7 +154,7 @@ const Home = () => {
                                                 DIF Estatal
                            </a>
                                         </li>
-                                        <li className="position">UI/UX Designer</li>
+                                        <li className="position">An&aacute;lista de Sistemas Junior</li>
                                     </ul>
                                 </div>
                                 <div className="dividewhite1"></div>
@@ -173,32 +173,32 @@ const Home = () => {
                                 <div className="dividewhite1"></div>
                                 <div className="row">
                                     <div className="col-md-6">
-                                        <div className="row">
+                                        {/* <div className="row">
                                             <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Estado:</p></div>
                                             <div className="col-sm-8"><p className="">Abierto para nuevas oportunidades</p></div>
-                                        </div>
+                                        </div> */}
                                         <div className="row">
                                             <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Nivel de educaci&oacute;n:</p></div>
                                             <div className="col-sm-8"><p className="">Licenciatura en Ingenier&iacute;a en Computaci&oacute;n</p></div>
                                         </div>
                                         <div className="row">
                                             <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Tipos de trabajo:</p></div>
-                                            <div className="col-sm-8"><p className="">Contrato, Independiente</p></div>
+                                            <div className="col-sm-8"><p className="">Independiente (Freelancer)</p></div>
                                         </div>
-                                        <div className="row">
+                                        {/* <div className="row">
                                             <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Mobilidad:</p></div>
                                             <div className="col-sm-8"><p className="">Listo para reubicarme</p></div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className="col-md-6">
                                         <div className="row">
                                             <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Lenguajes:</p></div>
                                             <div className="col-sm-8"><p className="">Espa&ntilde;ol e Ingles</p></div>
                                         </div>
-                                        <div className="row">
+                                        {/* <div className="row">
                                             <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Posici&oacute;n:</p></div>
                                             <div className="col-sm-8"><p className="">Analista / Desarrollador</p></div>
-                                        </div>
+                                        </div> */}
                                         <div className="row">
                                             <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Area de interes:</p></div>
                                             <div className="col-sm-8"><p className="">Desarrollo web y m&oacute;vil</p></div>
@@ -207,10 +207,10 @@ const Home = () => {
                                             <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Especialidad:</p></div>
                                             <div className="col-sm-8"><p className="">Desarrollo de aplicaciones, Dise&ntilde;o web, planificaci&oacute;n de proyectos, manejo de datos</p></div>
                                         </div>
-                                        <div className="row">
+                                        {/* <div className="row">
                                             <div className="col-sm-4"><p className="font-accident-two-bold uppercase">Pasatiempos:</p></div>
                                             <div className="col-sm-8"><p className="">Futbol, correr, escuchar m&uacute;sica</p></div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
