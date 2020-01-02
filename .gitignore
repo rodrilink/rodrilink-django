@@ -96,3 +96,6 @@ typings/
 
 # main.js
 assets/main.js
+
+#env
+env/
