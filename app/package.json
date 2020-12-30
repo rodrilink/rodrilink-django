@@ -1,11 +1,12 @@
 {
-  "name": "mysites",
+  "name": "rodrilink-django",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "install": "npm install",
     "dev": "webpack --mode development ./src/index.js --output ./assets/main.js",
-    "build": "webpack --mode production ./src/index.js --output ./assets/main.js"
+    "build": "webpack --mode production ./src/index.js --output /static/main.js"
   },
   "repository": {
     "type": "git",

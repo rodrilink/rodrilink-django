@@ -26,6 +26,7 @@ SECRET_KEY = 'f%zziwpa7!@(zp5wlsrq-y+m2(@_!@_7_wy0gib5_dag&5p74r'
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    'rodrilink',
     'rodrilink.com',
     'www.rodrilink.com',
     'localhost',
@@ -123,10 +124,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_URL = '/assets/'
+STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "assets")
+    os.path.join(BASE_DIR, "static")
 ]
 
-STATIC_ROOT = os.path.join(BASE_DIR, '../assets/')
+STATIC_ROOT = os.path.join(BASE_DIR, '../static/')

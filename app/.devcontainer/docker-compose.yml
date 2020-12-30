@@ -6,8 +6,11 @@ services:
       context: ..
       dockerfile: .devcontainer/Dockerfile
     ports:
-      - 8000:8000
-    command: sleep infinity
+      - 5000:5000
+    command: >
+      sh -c " sleep infinity &&
+              python manage.py migrate &&
+              python manage.py runserver 0.0.0.0:5000"
     volumes:
       - ~/.gitconfig:/root/.gitconfig
       - ..:/workspace

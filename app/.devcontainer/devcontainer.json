@@ -3,9 +3,6 @@
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
 	"workspaceFolder": "/workspace",
-	"appPort": [
-		"8000:8000"
-	],
 	"extensions": [
 		"ms-python.python",
 		"VisualStudioExptTeam.vscodeintellicode"
