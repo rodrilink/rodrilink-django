@@ -14,11 +14,11 @@ ENV SHELL /bin/bash
 
 RUN pip install --upgrade pip
 
-COPY ./requirements.txt ./
-RUN pip install -r requirements.txt
-
 RUN mkdir $WEBAPP_DIR
 WORKDIR $WEBAPP_DIR
+
+COPY ./requirements.txt ./
+RUN pip install -r requirements.txt
 
 # Install node for building the front end
 RUN apt-get update
